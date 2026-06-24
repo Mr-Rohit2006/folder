@@ -51,7 +51,7 @@ function TreeVisualizer({ treeData }) {
 
 function App() {
   // Setup default URL and sample data from the PDF challenge
-  const [apiUrl, setApiUrl] = useState(import.meta.env.VITE_API_URL || 'http://localhost:5000');
+  const [apiUrl, setApiUrl] = useState('https://folder-y856.onrender.com');
   const [inputText, setInputText] = useState(
     'A->B, A->C, B->D, C->E, E->F, X->Y, Y->Z, Z->X, P->Q, Q->R, G->H, G->H, G->I, hello, 1->2, A->'
   );
